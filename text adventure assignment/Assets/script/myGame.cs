@@ -182,7 +182,8 @@ public class myGame : MonoBehaviour {
 
                 textBuffer = "you are currently at the ruins.\n" +
                     "you search around strenuously but find nothing.\n" +
-                    "'why is there a empty room here, it's mreaningless!'you whine";
+                    "'why is there a empty room here, it's mreaningless!'\n" +
+                    "you whine";
 
                 place_north = "deep sea";
 
@@ -270,7 +271,8 @@ public class myGame : MonoBehaviour {
                 }
                 else
                 {
-                    textBuffer = "the door is locked. Press any key to return to the cross road";
+                    textBuffer = "the door is locked.\n" +
+                        "Press any key to return to the cross road";
 
                     if (Input.anyKeyDown)
                     {
@@ -334,7 +336,8 @@ public class myGame : MonoBehaviour {
                 }
                 else
                 {
-                    textBuffer = "the door is locked. Press any key to return to the cross road";
+                    textBuffer = "the door is locked.\n" +
+                        "Press any key to return to the cross road";
 
                     if (Input.anyKeyDown)
                     {
@@ -372,7 +375,8 @@ public class myGame : MonoBehaviour {
                 }
                 else
                 {
-                    textBuffer = "the door is locked. Press any key to return to the cross road";
+                    textBuffer = "the door is locked.\n" +
+                        "Press any key to return to the cross road";
 
                     if (Input.anyKeyDown)
                     {
@@ -410,7 +414,8 @@ public class myGame : MonoBehaviour {
                 }
                 else
                 {
-                    textBuffer = "the door is locked. Press any key to return to the extinct volcano";
+                    textBuffer = "the door is locked.\n" + 
+                        "Press any key to return to the extinct volcano";
 
                     if (Input.anyKeyDown)
                     {
@@ -437,7 +442,8 @@ public class myGame : MonoBehaviour {
                 else
                 {
                     textBuffer = "\n you finally beaten by James Chen due to lack of energy.\n" +
-                        "'you are too weak to beat me, hahahaha' James Chen laughs arrogantly.\n" +
+                        "'you are too weak to beat me, hahahaha'\n" +
+                        "James Chen laughs arrogantly.\n" +
                         "\n Game Over.";
                     if (!bgmChanged)
                     {
